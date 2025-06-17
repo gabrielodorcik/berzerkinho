@@ -49,11 +49,9 @@ Berzerkinho fala como um verdadeiro guerreiro nórdico: com **autoridade, orgulh
 
 Por enquanto, Berzerkinho não possui memória contínua, ou seja, ele responde com base apenas na pergunta atual. O sistema é dependente da API externa e de conexão com internet para funcionar.
 
-## 🚀 Futuras funcionalidades (em planejamento)
+## Como instalar?
 
-- Personalização de tom e agressividade nas respostas
-- Modo "escolar" com respostas mais educativas
-- Integração com narrativas de RPG e escolha de aventura
+Você pode clonar ou apenas copiar os codigos da pagina da index.html e subistituir o trecho de <sua-chave-API> por uma chave autenticada criada no site da openrouter. 
 
 ---
 
