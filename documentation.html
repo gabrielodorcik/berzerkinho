@@ -1,0 +1,121 @@
+<!-- documentacao.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Documentação - Berzerkinho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Eagle+Lake&family=MedievalSharp&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logo-berzerkinho.png" />
+
+  <style>
+    body {
+      font-family: 'MedievalSharp', cursive;
+      background-color: #0f160d;
+      color: white;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #c48725;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: rgb(15, 22, 13);
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      width: 100px;
+      margin-right: 15px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <div class="logo-container">
+      <img src="logo-berzerkinho.png" alt="logo" />
+    </div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="documentation.html">DOCUMENTAÇÃO</a>
+    </nav>
+  </header>
+
+  <h1>Documentação do Berzerkinho</h1>
+
+  <h2>🛡️ O que é o Berzerkinho?</h2>
+  <p>Berzerkinho é um chatbot inspirado nas lendas vikings, que assume a personalidade de um guerreiro nórdico ancestral, descendente direto de Ragnar Lothbrok. Sua missão é uma só: espalhar a sabedoria da <strong>mitologia nórdica</strong> com bravura, honra e fúria digna dos salões de Valhala.</p>
+
+  <h2>⚔️ Objetivo</h2>
+  <p>O objetivo do Berzerkinho é <strong>responder exclusivamente</strong> a perguntas relacionadas à cultura, crenças e histórias da mitologia nórdica. Quando confrontado com assuntos triviais ou modernos, ele recusa com orgulho e sarcasmo viking, mantendo a imersão total no universo mitológico.</p>
+
+  <h2>📜 Temas permitidos</h2>
+  <ul>
+    <li>Deuses nórdicos (Odin, Thor, Loki, Freya, etc)</li>
+    <li>Yggdrasil e os nove reinos</li>
+    <li>Runas e símbolos antigos</li>
+    <li>Histórias, rituais e lendas vikings</li>
+    <li>Cultura de guerra, honra e morte no clã</li>
+    <li>Valhala, Hel e conceitos espirituais nórdicos</li>
+  </ul>
+
+  <h2>🚫 Temas bloqueados</h2>
+  <p>Assuntos como tecnologia, política moderna, matemática, redes sociais, celebridades, entre outros temas não ligados à mitologia nórdica, serão rebatidos com uma resposta épica de reprovação.</p>
+
+  <h2>🧠 Linguagem e Personalidade</h2>
+  <p>Berzerkinho fala como um verdadeiro guerreiro nórdico: com <strong>autoridade, orgulho e metáforas guerreiras</strong>. Ele nunca se refere a si como “inteligência artificial” ou “bot”, mas como um ser mitológico com honra e destino.</p>
+
+  <blockquote style="background-color: #ffffff10; padding: 15px; border-left: 4px solid #c48725;">
+    “Acho que você não entendeu, mortal. Sou um guerreiro viking! Só respondo questões dignas dos salões de Valhala. Volte com algo à altura!”
+  </blockquote>
+
+  <h2>🛠️ Tecnologias Utilizadas</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript puro</li>
+    <li><strong>Estilo:</strong> Fonte MedievalSharp, visual com inspiração nórdica</li>
+    <li><strong>API:</strong> <a href="https://openrouter.ai" target="_blank">OpenRouter</a> usando o modelo <code>deepseek-r1:free</code></li>
+    <li><strong>Markdown:</strong> Integração com a biblioteca <code>marked</code> para formatação de respostas</li>
+  </ul>
+
+  <h2>💬 Exemplos de uso</h2>
+  <ul>
+    <li><strong>❓ Pergunta:</strong> Quem é o pai de todos na mitologia nórdica?<br>
+        <strong>🗡️ Resposta:</strong> "Odin, o Pai de Todos! O sábio dos nove reinos, aquele que sacrificou um olho por sabedoria eterna!"</li>
+    <li><strong>❓ Pergunta:</strong> Qual o significado das runas?<br>
+        <strong>🗡️ Resposta:</strong> "As runas são as marcas do destino, gravadas pelos deuses em pedras e corações!"</li>
+    <li><strong>❓ Pergunta:</strong> Como funciona o TikTok?<br>
+        <strong>🛑 Resposta:</strong> "TikTok? Isso não ecoa nos tambores de guerra! Traga-me mitos, não frivolidades!"</li>
+  </ul>
+
+  <h2>🧪 Testes e Limitações</h2>
+  <p>Por enquanto, Berzerkinho não possui memória contínua, ou seja, ele responde com base apenas na pergunta atual. O sistema é dependente da API externa e de conexão com internet para funcionar.</p>
+
+
+
+  <hr />
+
+  <p><a href="index.html">⬅ Voltar para a Home</a></p>
+</body>
+</html>
